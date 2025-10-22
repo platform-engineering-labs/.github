@@ -1,7 +1,5 @@
 <div align="center">
 
-# launching soon...
-
 <img src="assets/logo.png" alt="logo" width="50%"/>
 
 ## We give Platform Engineers the tools they deserve.

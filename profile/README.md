@@ -54,7 +54,7 @@ No drift · Minimal blast radius · Always-current code · Full control
 A [Terraform](https://formae.ai/formae-vs-terraform) and [Pulumi](https://formae.ai/formae-vs-pulumi) alternative built for day 2 and beyond: formae defines infrastructure in Pkl, a configuration language with schemas and constraints, then continuously discovers what is actually running and keeps that code as the source of truth rather than a state file. It can fully replace Terraform or Pulumi, or run alongside them.
 
 - [formae](https://github.com/platform-engineering-labs/formae) - the source, written in Go. Open source under FSL-1.1-ALv2; every release converts to Apache-2.0 after two years.
-- [formae-mcp](https://github.com/platform-engineering-labs/formae-mcp) - MCP server and skills for Claude Code, Codex, Cursor and OpenCode, installed from the [formae-marketplace](https://github.com/platform-engineering-labs/formae-marketplace).
+- [formae plugin](https://github.com/platform-engineering-labs/formae-mcp) (formerly `formae-mcp`) - MCP server and skills for Claude Code, Codex, Cursor and OpenCode. In Claude Code, install it as `formae` from the [formae-marketplace](https://github.com/platform-engineering-labs/formae-marketplace).
 - [formae hub](https://hub.platform.engineering) - community and official plugins: AWS, Azure, GCP, OCI, Kubernetes and more. Write your own from the [plugin template](https://github.com/platform-engineering-labs/formae-plugin-template).
 - [formae-helm](https://github.com/platform-engineering-labs/formae-helm) - run the formae agent on Kubernetes.
 - [Documentation](https://docs.formae.ai) - reference, guides and release notes.
